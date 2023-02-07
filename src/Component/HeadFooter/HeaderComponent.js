@@ -1,21 +1,26 @@
+import './HeadFooter.css';
+import logo from '../../Asset/Logo/Logo.png';
+
+
+
 function HeaderComponent() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg fixed-top">
+            <nav className="navbar navbar-expand-lg py-3 fixed-top">
                 <div className="container">
-                    <p className="navbar-brand">M3</p>
+                    <a href='#home'><img src={logo} alt="logo"/></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
-                        <p className="navbar-brand">M3</p>
+                        <a href='#home' className='ms-md-4'><img src={logo} alt="logo"/></a>
                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div className="offcanvas-body border ">
-                            <ul className="col-10 navbar-nav justify-content-end d-flex gap-5 flex-grow-1 pe-3">
+                        <div className="offcanvas-body">
+                            <ul className="col-lg-10 navbar-nav mt-3 ms-sm-4 justify-content-end d-flex gap-lg-5 gap-md-3  flex-grow-1 pe-3">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#conferences">Conferences</a>
+                                    <a className="nav-link conferences" aria-current="page" href="#conferences">Conferences</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#mission">Mission</a>
@@ -30,13 +35,13 @@ function HeaderComponent() {
                                     <a className="nav-link" href="#schedules">Speakers</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#schedules">Interviews</a>
+                                    <a className="nav-link " href="#schedules">Interviews</a>
                                 </li>   
                                                             
                             </ul>
-                            <ul className="navbar-nav justify-content-end border col-2 flex-grow-1 pe-3">
-                            <li className="nav-item">
-                                    <a className="nav-link" href="#register">Register Now</a>
+                            <ul className="navbar-nav justify-content-end col-lg-2 flex-grow-1 pe-3">
+                            <li className="nav-item register">
+                                    <a className="nav-link register-text" href="#register">Register Now</a>
                                 </li>  
                             </ul>
                         </div>

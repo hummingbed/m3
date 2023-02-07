@@ -1,0 +1,31 @@
+.navbar-expand-lg {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.offcanvas-body a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.offcanvas-body .conferences {
+    color: #AEFF00;
+}
+
+.offcanvas-body .register {
+    background: linear-gradient(266.12deg, #0A89A6 -56.64%, #032340 98.59%);
+    padding: 12px 24px;
+    border-radius: 50px;
+}
+
+.offcanvas-body .register-text {
+    color: #C2F213;
+}
+
+@media only screen and (max-width: 991px){
+    .offcanvas{
+        background: linear-gradient(255.9deg, #72A603 -13.51%, #011F3B 102.72%);
+    }
+}
