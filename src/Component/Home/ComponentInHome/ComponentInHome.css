@@ -1,4 +1,175 @@
-.hero-component{
+.hero-component {
     background: linear-gradient(255.9deg, #72A603 -13.51%, #011F3B 102.72%);
     height: 100vh;
+    width: 99vw;
 }
+
+.hero-component .disruptive-ideas-span-text {
+    color: #C2F213;
+}
+
+.hero-component .disruptive-ideas-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 2px;
+    padding-top: 15%;
+}
+
+.hero-component .hero-component-text .edition {
+    color: #011F3B;
+    background: #C2F213;
+}
+
+.hero-component .hero-component-date .bi-calendar {
+    background: #A2E413;
+}
+
+.hero-component .apprenticeship {
+    font-size: 28px;
+}
+
+.hero-component .hero-component-date p {
+    font-size: 27px;
+}
+
+.hero-component .hero-component-date .register-now {
+    color: #C2F213;
+    background: linear-gradient(266.12deg, #0A89A6 -56.64%, #032340 98.59%);
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 1236px) {
+
+    .hero-component .hero-component-date p,
+    .apprenticeship {
+        font-size: 24px;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 1128px) {
+
+    .hero-component .hero-component-date p,
+    .apprenticeship {
+        font-size: 20px;
+        background-color: gray;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .hero-component .hero-component-date p,
+    .apprenticeship {
+        font-size: 16px;
+        background-color: gray;
+    }
+}
+
+@media only screen and (max-width: 878px) {
+    .hero-component .disruptive-ideas-text {
+        font-size: 55px;
+        background-color: gray;
+    }
+}
+
+/* start Money Mission Component */
+
+
+.money-mission .hexagon {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: linear-gradient(180deg, #A2E413 0%, #72A603 100%);
+    /* transform: rotate(90deg); */
+    width: 43px;
+    height: 46px;
+}
+
+.money-mission .money-meet-mind-text {
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 40px; */
+    line-height: 38px;
+}
+
+.money-mission .money-meet-mind-small-text {
+    font-family: 'Neurial Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #011F3B;
+    letter-spacing: .5px;
+}
+
+@media only screen and (min-width: 1236px) {
+
+    .money-mission .mission-two {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* End Money Mission Component */
+
+/* start Speaker Component */
+/* .speaker-component .speaker-image {
+     position: relative;
+     width: 178px;
+     height: 215px;
+     margin: 50px;
+     background:
+     linear-gradient(to bottom left,transparent calc(50% - 3px),#72A603 calc(50% - 3px))0 100%/50% 25% no-repeat,
+     linear-gradient(to bottom right,transparent calc(50% - 3px),#72A603 calc(50% - 3px))100% 100%/50% 25% no-repeat,
+     linear-gradient(to top right,transparent calc(50% - 3px),#72A603 calc(50% - 3px))100% 0/50% 25% no-repeat,
+     linear-gradient(to top left,transparent calc(50% - 3px),#72A603 calc(50% - 3px))0 0/50% 25% no-repeat,
+     linear-gradient(#72A603,#72A603)0 0/3px 100% no-repeat,
+     linear-gradient(#72A603,#72A603)100% 0/3px 100% no-repeat,
+     white;
+     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+   } */
+/* end Speaker Component */
+
+/* book-seat-component */
+
+.book-seat-component {
+    background: linear-gradient(87.73deg, #011F3B 8.92%, #12300A 119.4%);
+}
+
+.book-seat-component .book-seat-card {
+    max-width: 25rem;
+    border: 2px solid rgba(162, 228, 19, 1);
+}
+
+.book-seat-component .book-seat-card .cash-price {
+    color: #011F3B;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.book-seat-component .book-seat-card  .ticket{
+    background: #A2E413;
+    color: #012E58;
+}
+
+.book-seat-component  .book-seat-text, .basic-ticket{
+    color: #A2E413;
+}
+
+.book-seat-component .basic-ticket{
+    color: #012E58;
+}
+
+/* book-seat-component */
+
+/* start paragraph */
+@media only screen and (min-width: 991px) {
+
+    .para-text {
+        margin-top: 130px;
+    }
+}
+/* end paragraph */
+

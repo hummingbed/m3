@@ -1,3 +1,8 @@
-/* p,a{
-    font-size: 160%!important;
-} */
+@font-face {
+    font-family: ClashDisplay;
+    src: url(/src/Asset/Font/ClashDisplay-Semibold.ttf);
+}
+
+* {
+    font-family: ClashDisplay;
+}
